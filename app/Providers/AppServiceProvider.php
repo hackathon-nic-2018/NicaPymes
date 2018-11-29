@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Nicapymes\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
