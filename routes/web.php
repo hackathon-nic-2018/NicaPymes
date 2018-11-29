@@ -13,4 +13,12 @@
 
 Route::get('/', function () {
     return view('admin');
+
+
+    route::resource('/Categoria,CategorisController');
+});
+
+Route::get('/', function () {
+    return view('Categoria.create');
+
 });
