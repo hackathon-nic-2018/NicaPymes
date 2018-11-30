@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html5>
+<html  lang="{{ app()->getLocale() }}>
 <head>
 	<meta charset="utf-8">
 	    <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -14,8 +14,6 @@
 <body>
 <div class="principal">
 	<div class="encabezado">
-		
-		
 		
 		<table>
 			<tr><a class="boton_personalizado" href="#">Inicio de Seción</a></tr>

@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('admin');
  
 });
-route::resource('layouts.indexes','CategoriaContoller');
+
 
 
 

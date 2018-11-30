@@ -14,7 +14,10 @@ class CategoriaController extends Controller
    
 
    
-        return view("categoria.create");
+       public funtion view()
+       {
+       return Redirect (action("/CategoriaContoller@indexes"));
+       }
   
     
 }

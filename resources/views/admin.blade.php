@@ -47,7 +47,8 @@
               <div>
                 <p></p>
                 <p></p>
-                <center><a href="" class="boton_1" > Inicio</a></center>
+                <center><a href="" class="boton_1" type="summit"> Inicio</a></center>
+                <a href="">Regresar al listado de usuarios</a>
               </div>
             </div>
           </div>
