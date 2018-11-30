@@ -32,6 +32,7 @@
 		    <label for="confirm_password">Confirmar Contrase&ntilde;a</label>
 		    <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirmar Contrase&ntilde;a">
 		  </div>
+		  
 
 		  <button type="submit" class="btn btn-default">Registrar</button>
 		</form>

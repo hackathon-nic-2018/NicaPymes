@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   
+	<title>NicaPymes</title>
+	<link rel="stylesheet" href="css/stylo.css">
+	<meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	   
+    
+</head>
+<body>
+<div class="principal">
+	<div class="encabezado">
+		
+		
+		
+		<table>
+			<tr><a class="boton_personalizado" href="#">Inicio de Sesión</a></tr>
+			 <tr ><a href=""><img src="img/4.ico "align="right"></a></tr> <tr><a href=""><img src="img/3.ico "align="right"></a></tr> <tr><a href=""><img src="img/2.ico "align="right"></a></tr><tr>/</tr><tr><a href=""align="right">ESP |</a></tr><tr>/</tr><tr><a href=""align="right">ENG</a></tr>
+		</table>
+		<center><img src="img/1.png"></center>
+		
+
+
+	<div class="rotulo">
+		<div class="busq">
+			<h6>Departamento/región</h6>
+			<input type="text" size="30" maxlength="30" value="(por ejemplo leon)" name="nombre">
+			<h6>Municipio</h6>
+			<input type="text" size="30" maxlength="30" value="(por ejemplo leon)" name="nombre"><br>
+			<button class="button7"><span> Buscar </span></button>
+		</div>
+		<div class="mapa">
+		<h3>My MAPA</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 12.1421824, lng: -85.000};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 7, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYKg5P6mV-Mr2Yt2gmNbxD7G_bwUOHwKQ&callback=initMap">
+    </script>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	<div class="primer">
+		<table class="tabla">
+			<tr><a href="">Crear Cuenta | </a> </tr>
+			<tr><a href="">Sobre Nosotros | </a> </tr>
+			<tr><a href="">Contacto</a></tr>
+		</table>
+	</div>
+	<div class="pie">
+		<center>@ 2018 NicaPymes,todos los derecho reservado</center>
+	</div>
+</div>
+</body>
+
+</html>

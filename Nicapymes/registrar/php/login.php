@@ -6,10 +6,10 @@ if(!empty($_POST)){
 			include "conexion.php";
 			
 			$user_id=null;
-			$sql1= "select * from user where (Idusuario=\"$_POST[Idusuario]\" or email=\"$_POST[	Correo]\") and password=\"$_POST[Contraceña]\" ";
+			$sql1= "select * from bdnicapymes where (Idusuario=\"$_POST[Idusuario]\" or email=\"$_POST[	Correo]\") and password=\"$_POST[Contraceña]\" ";
 			$query = $con->query($sql1);
 			while ($r=$query->fetch_array()) {
-				$user_id=$r["id"];
+				$user_id=$r["Idusuario"];
 				break;
 			}
 			if($user_id==null){
