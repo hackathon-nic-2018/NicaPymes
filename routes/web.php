@@ -13,12 +13,9 @@
 
 Route::get('/', function () {
     return view('admin');
-
-
-    route::resource('/Categoria,CategorisController');
+ 
 });
+route::resource('layouts.indexes','CategoriaContoller');
 
-Route::get('/', function () {
-    return view('Categoria.create');
 
-});
+

@@ -13,6 +13,4 @@ class Categoria extends Model
     	'Descripcion'
     	'Estado'
     ];
-    protected $guarded = [
-    ];
 }

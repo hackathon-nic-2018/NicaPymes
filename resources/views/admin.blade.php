@@ -47,7 +47,7 @@
               <div>
                 <p></p>
                 <p></p>
-                <center><a href="" class="boton_1"> Inicio</a></center>
+                <center><a href="" class="boton_1" > Inicio</a></center>
               </div>
             </div>
           </div>
